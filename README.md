@@ -1,4 +1,4 @@
-    #VetCare API
+#VetCare API
 
 API REST para gerenciamento de clínicas veterinárias.
 
