@@ -1,4 +1,8 @@
 package br.com.andrezzac.vetcareapi.repository;
 
-public class TutorRepository {
+import br.com.andrezzac.vetcareapi.entity.Tutor;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface TutorRepository extends JpaRepository<Tutor, Long> {
+
 }
