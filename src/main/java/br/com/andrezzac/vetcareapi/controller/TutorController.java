@@ -1,5 +1,6 @@
 package br.com.andrezzac.vetcareapi.controller;
 
+import br.com.andrezzac.vetcareapi.entity.Tutor;
 import br.com.andrezzac.vetcareapi.service.TutorService;
 import org.springframework.web.bind.annotation.*;
 
@@ -14,8 +15,8 @@ public class TutorController {
     }
 
     @PostMapping
-    public String cadastrarTutor(){
-        return tutorService.cadastrarTutor();
+    public String cadastrarTutor(@RequestBody Tutor tutor){
+        return tutorService.cadastrarTutor(tutor);
     }
 
 }
