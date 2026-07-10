@@ -20,20 +20,26 @@ Status: Em desenvolvimento
 - [x] Salvar tutor no banco
 - [x] Testar cadastro no Postman
 
+- [x] Validar nome obrigatório
+- [x] Validar CPF obrigatório
+- [x] Validar tamanho do CPF
+- [x] Validar algoritmo do CPF
+- [x] Validar e-mail obrigatório
+- [x] Validar formato do e-mail
+- [x] Validar data de nascimento
+- [x] Validar obrigatoriedade de telefone
+- [x] Validar quantidade mínima de telefones
+- [x] Criar enum ContatoPreferencial
+
 ##### Pendente
 
-- [ ] Retornar tutor cadastrado
-- [ ] Validar nome obrigatório
-- [ ] Validar CPF obrigatório
-- [ ] Validar formato do CPF
 - [ ] Impedir CPF duplicado
-- [ ] Validar e-mail obrigatório
-- [ ] Validar formato do e-mail
 - [ ] Impedir e-mail duplicado
-- [ ] Validar data de nascimento
-- [ ] Validar telefones
+- [ ] Validar formato dos telefones
 - [ ] Padronizar respostas da API
-- [ ] Testar cenários de erro
+- [ ] Ativar Bean Validation no Controller
+- [ ] Testar cenários de erro no Postman
+- [ ] Retornar Tutor cadastrado
 
 #### Consultar Tutor
 
