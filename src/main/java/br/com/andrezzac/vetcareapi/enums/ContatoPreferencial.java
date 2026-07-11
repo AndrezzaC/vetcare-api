@@ -5,5 +5,5 @@ public enum ContatoPreferencial {
     WHATSAPP,
     SMS,
     EMAIL,
-    LIGACAO;
+    LIGACAO
 }

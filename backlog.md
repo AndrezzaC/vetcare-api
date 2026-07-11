@@ -30,6 +30,8 @@ Status: Em desenvolvimento
 - [x] Validar obrigatoriedade de telefone
 - [x] Validar quantidade mínima de telefones
 - [x] Criar enum ContatoPreferencial
+- [x] Ativar Bean Validation no Controller
+- [x] Testar cenários de erro no Postman
 
 ##### Pendente
 
@@ -37,8 +39,6 @@ Status: Em desenvolvimento
 - [ ] Impedir e-mail duplicado
 - [ ] Validar formato dos telefones
 - [ ] Padronizar respostas da API
-- [ ] Ativar Bean Validation no Controller
-- [ ] Testar cenários de erro no Postman
 - [ ] Retornar Tutor cadastrado
 
 #### Consultar Tutor
