@@ -6,16 +6,23 @@
 
 ### Regras implementadas
 
-- É possível cadastrar um tutor no sistema.
+- É possível cadastrar um tutor.
+- Nome é obrigatório.
+- CPF é obrigatório.
+- CPF deve conter exatamente 11 caracteres.
+- CPF deve possuir um algoritmo válido.
+- Data de nascimento é obrigatória.
+- Data de nascimento deve ser anterior à data atual.
+- Pelo menos um telefone deve ser informado.
+- O tutor pode cadastrar no máximo 3 telefones.
+- E-mail é obrigatório.
+- E-mail deve possuir um formato válido.
+- Endereço é obrigatório.
+- O contato preferencial é obrigatório.
+
 
 ### Regras previstas
 
-- Nome obrigatório.
-- CPF obrigatório.
-- CPF deve possuir formato válido.
 - CPF deve ser único.
-- E-mail obrigatório.
-- E-mail deve possuir formato válido.
 - E-mail deve ser único.
-- Pelo menos um telefone deve ser informado.
-- Data de nascimento não pode ser futura.
+- Validar formato dos telefones.

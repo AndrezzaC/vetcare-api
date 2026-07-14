@@ -32,6 +32,7 @@ Status: Em desenvolvimento
 - [x] Criar enum ContatoPreferencial
 - [x] Ativar Bean Validation no Controller
 - [x] Testar cenários de erro no Postman
+- [x] Personalizar resposta para erros de validação
 
 ##### Pendente
 
