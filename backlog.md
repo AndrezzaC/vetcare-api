@@ -19,7 +19,6 @@ Status: Em desenvolvimento
 - [x] Configurar Hibernate
 - [x] Salvar tutor no banco
 - [x] Testar cadastro no Postman
-
 - [x] Validar nome obrigatório
 - [x] Validar CPF obrigatório
 - [x] Validar tamanho do CPF
@@ -33,14 +32,15 @@ Status: Em desenvolvimento
 - [x] Ativar Bean Validation no Controller
 - [x] Testar cenários de erro no Postman
 - [x] Personalizar resposta para erros de validação
+- [x] Personalizar tratamento global de exceções
 
 ##### Pendente
 
 - [ ] Impedir CPF duplicado
 - [ ] Impedir e-mail duplicado
 - [ ] Validar formato dos telefones
-- [ ] Padronizar respostas da API
 - [ ] Retornar Tutor cadastrado
+- [ ] Padronizar respostas da API utilizando ErrorResponse
 
 #### Consultar Tutor
 
@@ -76,3 +76,9 @@ Status: Em desenvolvimento
 
 - [ ] Registrar exame
 - [ ] Consultar histórico de exames
+
+## Melhorias Futuras
+
+- [ ] Estruturar endereço em campos separados
+- [ ] Consulta automática de CEP
+- [ ] Padronizar retorno da API com ErrorResponse
