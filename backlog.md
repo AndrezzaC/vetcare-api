@@ -33,11 +33,11 @@ Status: Em desenvolvimento
 - [x] Testar cenários de erro no Postman
 - [x] Personalizar resposta para erros de validação
 - [x] Personalizar tratamento global de exceções
+- [x] Impedir CPF duplicado
+- [x] Impedir e-mail duplicado
 
 ##### Pendente
 
-- [ ] Impedir CPF duplicado
-- [ ] Impedir e-mail duplicado
 - [ ] Validar formato dos telefones
 - [ ] Retornar Tutor cadastrado
 - [ ] Padronizar respostas da API utilizando ErrorResponse

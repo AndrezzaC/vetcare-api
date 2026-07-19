@@ -49,4 +49,11 @@ public class GlobalExceptionHandler {
                 .body("Não foi possível processar os dados enviados");
     }
 
+    @ExceptionHandler({CpfJaCadastradoException.class, EmailJaCadastradoException.class})
+    public ResponseEntity<String> tratarErrosDeCadastro(RuntimeException excecao){
+
+        return ResponseEntity
+                .badRequest()
+                .body(excecao.getMessage());
+    }
 }
