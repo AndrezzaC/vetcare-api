@@ -15,7 +15,7 @@ public class TutorService {
         this.tutorRepository = tutorRepository;
     }
 
-    public String cadastrarTutor(Tutor tutor){
+    public Tutor cadastrarTutor(Tutor tutor){
 
         if (tutorRepository.existsByCpf(tutor.getCpf())){
             throw new CpfJaCadastradoException("Já existe um tutor cadastrado com esse CPF");
@@ -25,8 +25,8 @@ public class TutorService {
             throw new EmailJaCadastradoException("Já existe um tutor cadastrado com esse e-mail");
         }
 
-        tutorRepository.save(tutor);
+        Tutor tutorSalvo = tutorRepository.save(tutor);
 
-        return "Tutor cadastrado com sucesso!";
+        return tutorSalvo;
     }
 }

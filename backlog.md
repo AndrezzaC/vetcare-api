@@ -35,11 +35,11 @@ Status: Em desenvolvimento
 - [x] Personalizar tratamento global de exceções
 - [x] Impedir CPF duplicado
 - [x] Impedir e-mail duplicado
+- [x] Retornar Tutor cadastrado
 
 ##### Pendente
 
 - [ ] Validar formato dos telefones
-- [ ] Retornar Tutor cadastrado
 - [ ] Padronizar respostas da API utilizando ErrorResponse
 
 #### Consultar Tutor

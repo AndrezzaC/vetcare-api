@@ -3,6 +3,7 @@ package br.com.andrezzac.vetcareapi.controller;
 import br.com.andrezzac.vetcareapi.entity.Tutor;
 import br.com.andrezzac.vetcareapi.service.TutorService;
 import jakarta.validation.Valid;
+import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
@@ -16,7 +17,8 @@ public class TutorController {
     }
 
     @PostMapping
-    public String cadastrarTutor(@Valid @RequestBody Tutor tutor){
+    @ResponseStatus(HttpStatus.CREATED)
+    public Tutor cadastrarTutor(@Valid @RequestBody Tutor tutor){
         return tutorService.cadastrarTutor(tutor);
     }
 
